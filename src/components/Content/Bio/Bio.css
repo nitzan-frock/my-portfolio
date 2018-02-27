@@ -1,0 +1,39 @@
+.Bio {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.Text {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    text-justify: auto;
+    font-size: 12pt;
+    padding-left: 10px;
+}
+
+.ProfileImg {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.ProfileImg img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 8px solid white;
+    border-radius: 100%;
+}
+
+@media (max-width: 500px) {
+    .Bio {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+}
