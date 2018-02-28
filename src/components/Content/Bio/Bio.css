@@ -13,6 +13,7 @@
 
 .Text p {
     padding: 0 10px;
+    color: #292929;
 }
 
 .ProfileImg {
@@ -28,7 +29,7 @@
     display: block;
     width: 100%;
     height: auto;
-    border: 8px solid #004d71;
+    border: 8px solid white;
     border-radius: 100%;
 }
 

@@ -10,10 +10,11 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="Portfolio">
-                <Divider />
+                <Divider title="Bio"/>
                 <Section>
                     <Bio />
                 </Section>
+                <Divider title="Projects"/>
                 <Section>
                     <Projects />
                 </Section>

@@ -1,0 +1,25 @@
+.Divider {
+    display: flex;
+    flex-flow: row;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+}
+
+.Divider div {
+    width: 50%;
+}
+
+.Divider h2 {
+    margin: 0.1em 10px;
+    color: #646464;
+}
+
+.Divider hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 4px solid #646464;
+    margin: 1em 0;
+    padding: 0;
+}

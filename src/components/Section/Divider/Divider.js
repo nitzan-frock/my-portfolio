@@ -7,7 +7,7 @@ const Divider = (props) => {
             <div>
                 <hr />
             </div>
-            <h3>{props.children}</h3>
+            <h2>{props.title}</h2>
             <div>
                 <hr />
             </div>
