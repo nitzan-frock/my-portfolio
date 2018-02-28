@@ -6,10 +6,12 @@ const Project = (props) => {
     return (
         <Auxiliary>
             <div className="Project">
-                <div 
-                    className="ProjectImg"
-                    style={{backgroundImage: "'"+props.image+"'"}} >
-                </div>
+                <a href={props.link}>
+                    <div 
+                        className="ProjectImg"
+                        style={{backgroundImage: "url("+props.image+")"}} >
+                    </div>
+                </a>
                 <div className="Title">
                     <p>{props.children}</p>
                 </div>

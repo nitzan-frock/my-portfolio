@@ -16,7 +16,7 @@
 .NavItem a:hover,
 .NavItem a:active,
 .NavItem a.NavActive {
-    color: #004080;
+    color: #004d71;
 }
 
 @media (min-width: 500px) {
@@ -39,6 +39,6 @@
     .NavItem a.active {
         background-color: #008fd5;
         border-bottom: 3px solid #004d71;
-        color: #004080;
+        color: #004d71;
     }
 }

@@ -21,8 +21,16 @@ const Projects = (props) => {
 
     return (
         <div className="Projects">
-            <Project image={images["memory-game.JPG"]} >Memory Game</Project>
-            <Project />
+            <Project 
+                link="https://nitzanf.github.io/memory-game"
+                image={images["memory-game.JPG"]} >
+                    Memory Game
+            </Project>
+            <Project
+                link="https://nitzanf.github.io/calendar-basic"
+                image={images["calendar.JPG"]} >
+                    Calendar
+            </Project>
         </div>
     );
 };

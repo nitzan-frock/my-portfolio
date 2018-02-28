@@ -16,7 +16,6 @@ const Bio = (props) => {
                     front-end web application design as well as developing back-end services.</p>
             </div>
         </div>
-
     );
 };
 

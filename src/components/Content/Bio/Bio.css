@@ -2,15 +2,17 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
+    justify-items: center;
 }
 
 .Text {
     display: flex;
     width: 100%;
-    text-align: left;
-    text-justify: auto;
     font-size: 12pt;
-    padding-left: 10px;
+}
+
+.Text p {
+    padding: 0 10px;
 }
 
 .ProfileImg {
@@ -26,7 +28,7 @@
     display: block;
     width: 100%;
     height: auto;
-    border: 8px solid white;
+    border: 8px solid #004d71;
     border-radius: 100%;
 }
 
