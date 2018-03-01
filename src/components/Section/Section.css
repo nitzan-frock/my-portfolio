@@ -1,8 +1,16 @@
 .Section {
     display: flex;
-    padding: 5px;
+    flex-flow: column;
+    padding: 50px 0;
     box-sizing: border-box;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
     width: 80%;
+    border: 1px solid blue;
+}
+
+.Anchor {
+    display: block;
+    height: 56px;
+    margin-top: -56px;
+    visibility: hidden;
 }

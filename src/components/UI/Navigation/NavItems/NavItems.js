@@ -5,9 +5,9 @@ import NavItem from './NavItem/NavItem';
 const NavItems = (props) => {
     return (
         <ul className="NavItems">
-            <NavItem name="Bio" >Bio</NavItem>
-            <NavItem name="Projects" >Projects</NavItem>
-            <NavItem name="Contact" >Contact</NavItem>
+            <NavItem clicked={props.clicked} name="bio" >Bio</NavItem>
+            <NavItem clicked={props.clicked} name="projects" >Projects</NavItem>
+            <NavItem clicked={props.clicked} name="contact" >Contact</NavItem>
         </ul>
     );
 };

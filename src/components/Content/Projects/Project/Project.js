@@ -6,7 +6,7 @@ const Project = (props) => {
     return (
         <Auxiliary>
             <div className="Project">
-                <a href={props.link}>
+                <a href={props.link} target="_blank">
                     <div 
                         className="ProjectImg"
                         style={{backgroundImage: "url("+props.image+")"}} >

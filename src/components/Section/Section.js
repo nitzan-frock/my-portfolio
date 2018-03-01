@@ -1,11 +1,13 @@
 import React from 'react';
+import Auxiliary from '../../hoc/Auxiliary/Auxiliary';
 import './Section.css';
 
 const Section = (props) => {
     return (
-        <div className="Section">
-            {props.children}
-        </div>
+        <Auxiliary>
+            <span className="Anchor" id={props.section}></span>
+            <section className="Section">{props.children}</section>
+        </Auxiliary>
     );
 };
 
