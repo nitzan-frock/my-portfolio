@@ -5,17 +5,19 @@
     width: 100%;
 }
 
-.NavItem a {
+.NavItem p {
     color: white;
     text-decoration: none;
     width: 100%;
     box-sizing: border-box;
     display: block;
+    cursor: pointer;
 }
 
-.NavItem a:hover,
-.NavItem a:active,
-.NavItem a.NavActive {
+.NavItem p:hover,
+.NavItem p:active,
+.NavItem p.NavActive {
+    border-bottom: 3px solid #003a55;
     color: #003a55;
 }
 
@@ -28,17 +30,15 @@
         align-items: center;
     }
     
-    .NavItem a {
+    .NavItem p {
         color: white;
         height: 100%;
         padding: 16px 10px;
     }
 
-    .NavItem a:hover,
-    .NavItem a:active,
-    .NavItem a.active {
-        background-color: #008fd5;
-        border-bottom: 3px solid #003a55;
+    .NavItem p:hover,
+    .NavItem p:active,
+    .NavItem p.active {
         color: #003a55;
     }
 }

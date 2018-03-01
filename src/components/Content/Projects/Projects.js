@@ -6,7 +6,6 @@ const Projects = (props) => {
     const importImages = (r) => {
         let images = {};
         r.keys().map((item, index) => {
-            console.log(images[item.replace('./', '')] = r(item));
             return images[item.replace('./', '')] = r(item);
         });
         return images;
