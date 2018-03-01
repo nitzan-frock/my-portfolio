@@ -1,11 +1,10 @@
 .Section {
     display: flex;
     flex-flow: column;
-    padding: 50px 0;
     box-sizing: border-box;
+    padding-bottom: 30px;
     align-items: center;
     width: 80%;
-    border: 1px solid blue;
 }
 
 .Anchor {

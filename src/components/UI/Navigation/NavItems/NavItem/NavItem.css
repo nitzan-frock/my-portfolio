@@ -17,6 +17,7 @@
 .NavItem p:hover,
 .NavItem p:active,
 .NavItem p.NavActive {
+    border-bottom: 3px solid #003a55;
     color: #003a55;
 }
 
@@ -38,8 +39,6 @@
     .NavItem p:hover,
     .NavItem p:active,
     .NavItem p.active {
-        background-color: #008fd5;
-        border-bottom: 3px solid #003a55;
         color: #003a55;
     }
 }
