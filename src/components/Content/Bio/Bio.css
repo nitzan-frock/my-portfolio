@@ -39,4 +39,8 @@
         flex-flow: column;
         justify-content: center;
     }
+
+    .Text p {
+        text-align: center;
+    }
 }
